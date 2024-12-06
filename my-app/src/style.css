@@ -1,0 +1,38 @@
+.new {
+  text-transform: uppercase;
+  height: 50px;
+  width: 80px;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 15px;
+  line-height: 23px;
+  color: rgb(80, 90, 240);
+  border: none;
+  outline: none;
+  background-color: rgb(245, 245, 245);
+  cursor: pointer;
+  transition: all 800ms;
+}
+.new:hover {
+  background-color: (80, 99, 240, 0.04);
+}
+
+.new1 {
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  border-radius: 60px;
+  border: none;
+  color: rgb(136, 136, 136);
+  outline: none;
+  cursor: pointer;
+  transition: all 500ms;
+
+  img {
+    height: 100%;
+    width: 100%;
+  }
+}
+.new1:hover {
+  background-color: rgba(80, 99, 240, 0.14);
+}
